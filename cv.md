@@ -34,3 +34,6 @@ I have bachelor's and master's degrees ITMO University
 
 Russian — native
 English — A2-B1 **(IMHO)**
+
+## May the 4 be with u
+![power](https://memepedia.ru/wp-content/uploads/2019/12/ekl0rtiwksaddd6.jpg)
