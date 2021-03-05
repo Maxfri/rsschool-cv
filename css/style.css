@@ -1,0 +1,88 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "aside header header"
+    "aside main main"
+    "aside footer footer";
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 20% 1fr 15%;
+  height: 100vh;
+  margin: 0;
+}
+
+header,
+footer,
+main,
+aside,
+div {
+  padding: 20px;
+}
+.section {
+  padding: 10px 0;
+  position: relative;
+  background: #ffffff;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.card {
+  border: 15px solid rgba(255, 55, 62, 1);
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
+}
+#pageHeader {
+  grid-area: header;
+  text-align: center !important;
+  background-color: #2d4ea3;
+  color: white;
+}
+#pageFooter {
+  grid-area: footer;
+  background-color: #2d4ea3;
+  color: white;
+}
+#main {
+  grid-area: main;
+  text-align: center !important;
+}
+#mainAside {
+  grid-area: aside;
+  background-color: #1d2939;
+  color: white;
+}
+
+#rsImage {
+  max-width: 100px;
+  margin: auto auto;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+
+.profile-image img {
+  border: 15px solid rgba(255, 55, 62, 1);
+  position: relative;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  z-index: 100;
+}
+
+.date {
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+}
+#skills li {
+  list-style-type: none;
+}
+#github {
+  text-decoration: none;
+  color: tomato;
+}
